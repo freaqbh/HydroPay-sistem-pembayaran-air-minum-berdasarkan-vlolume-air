@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "author": "Syela Zeruya",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "board-ssd1306",
+      "id": "oled1",
+      "top": 89.54,
+      "left": 326.63,
+      "attrs": { "i2cAddress": "0x3c" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 121.4,
+      "left": 153.6,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    { "type": "wokwi-relay-module", "id": "relay1", "top": -47.8, "left": 182.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "oled1:SDA", "esp:21", "green", [ "v0" ] ],
+    [ "oled1:SCL", "esp:22", "green", [ "v0" ] ],
+    [ "oled1:VCC", "esp:3V3", "red", [ "v-153.6", "h-230.25" ] ],
+    [ "oled1:GND", "esp:GND.2", "black", [ "v0" ] ],
+    [ "btn1:1.l", "esp:18", "green", [ "h0", "v-28.8" ] ],
+    [ "btn1:2.l", "esp:GND.3", "green", [ "h-19.2", "v-67" ] ],
+    [ "relay1:IN", "esp:19", "green", [ "h-67.2", "v105.4" ] ],
+    [ "relay1:VCC", "esp:5V", "red", [ "h-220.8", "v230.4", "h48" ] ],
+    [ "relay1:GND", "esp:GND.1", "black", [ "h-201.6", "v172.4" ] ]
+  ],
+  "dependencies": {}
+}
