@@ -1,22 +1,22 @@
-# 💧 HydroPay - IoT Smart Water Dispenser with Closed-Loop Control
+# HydroPay - IoT Smart Water Dispenser with Closed-Loop Control
 
 HydroPay adalah sistem dispenser air berbasis IoT yang menggunakan **closed-loop control system** untuk mengontrol volume air berdasarkan setpoint (target volume). Sistem ini mensimulasikan pembayaran berbasis volume (seperti QRIS) dan mengontrol aliran air secara otomatis.
 
 ---
 
-## 🚀 Features
+## Features
 
-* 🔁 Closed-loop control (feedback-based system)
-* 💧 Simulasi pengisian air berbasis volume (ml)
-* 🎯 Setpoint volume (input dari Serial / simulasi QRIS)
-* ⚡ Kontrol valve menggunakan relay
-* 📟 OLED display (SSD1306) untuk monitoring real-time
-* 💰 Perhitungan biaya otomatis berdasarkan volume
-* 🧪 Simulasi berjalan di Wokwi (ESP32)
+* Closed-loop control (feedback-based system)
+* Simulasi pengisian air berbasis volume (ml)
+* Setpoint volume (input dari Serial / simulasi QRIS)
+* Kontrol valve menggunakan relay
+* OLED display (SSD1306) untuk monitoring real-time
+* Perhitungan biaya otomatis berdasarkan volume
+* Simulasi berjalan di Wokwi (ESP32)
 
 ---
 
-## 🧠 System Concept
+## System Concept
 
 HydroPay menggunakan konsep **feedback control system**:
 
@@ -34,7 +34,7 @@ Sensor Feedback (mlCount)
 Comparison → Control Action
 ```
 
-### 📌 Penjelasan:
+### Penjelasan:
 
 * **Setpoint**: Volume air yang diinginkan (misalnya 500 ml)
 * **Feedback**: Volume aktual (`mlCount`)
@@ -44,7 +44,7 @@ Comparison → Control Action
 
 ---
 
-## ⚙️ Hardware Components
+## Hardware Components
 
 | Komponen               | Deskripsi                      |
 | ---------------------- | ------------------------------ |
@@ -57,7 +57,7 @@ Comparison → Control Action
 
 ---
 
-## 🔌 Pin Configuration
+## Pin Configuration
 
 | Komponen       | Pin ESP32 |
 | -------------- | --------- |
@@ -69,7 +69,7 @@ Comparison → Control Action
 
 ---
 
-## 💻 How It Works
+## How It Works
 
 ### 1. Idle Mode
 
@@ -116,7 +116,7 @@ Comparison → Control Action
 
 ---
 
-## 💰 Pricing Model
+## Pricing Model
 
 Harga ditentukan sebagai:
 
@@ -131,10 +131,9 @@ Contoh:
 
 ---
 
-## 🧪 Simulation (Wokwi)
+## Simulation (Wokwi)
 
-Project ini dirancang untuk dijalankan di:
-👉 https://wokwi.com/
+Project ini dirancang untuk dijalankan di: https://wokwi.com/
 
 ### Langkah:
 
@@ -149,7 +148,7 @@ Project ini dirancang untuk dijalankan di:
 
 ---
 
-## 📊 Example Usage
+## Example Usage
 
 | Input | Output                              |
 | ----- | ----------------------------------- |
@@ -158,42 +157,3 @@ Project ini dirancang untuk dijalankan di:
 
 ---
 
-## 🔥 Future Improvements
-
-* 💳 Integrasi QRIS real (Midtrans / Xendit)
-* 🌐 Backend server (Golang + gRPC)
-* 📱 Dashboard web (Vue.js)
-* 🔍 Sensor flow real (bukan simulasi)
-* ⚠️ Leak detection system
-* 🤖 AI-based consumption prediction
-
----
-
-## 📚 Academic Value
-
-Project ini mencakup konsep:
-
-* IoT System Design
-* Embedded System (ESP32)
-* Feedback Control System
-* Smart Metering
-* Fintech Integration (simulated)
-
----
-
-## 🧠 Key Insight
-
-> “HydroPay menggunakan pendekatan closed-loop control dengan setpoint berupa volume air yang ditentukan dari input pengguna, serta feedback berupa volume aktual yang diukur secara real-time.”
-
----
-
-## 📜 License
-
-Free to use for educational purposes.
-
----
-
-## 🙌 Author
-
-Developed by: **[Your Name]**
-Project: HydroPay IoT System
