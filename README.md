@@ -1,3 +1,5 @@
+<img width="735" height="447" alt="Screenshot 2026-04-15 103256" src="https://github.com/user-attachments/assets/3d8abd7b-7e3e-4884-a598-f7bfef8871b8" />
+
 # HydroPay - IoT Smart Water Dispenser with Closed-Loop Control
 
 HydroPay adalah sistem dispenser air berbasis IoT yang menggunakan **closed-loop control system** untuk mengontrol volume air berdasarkan setpoint (target volume). Sistem ini mensimulasikan pembayaran berbasis volume (seperti QRIS) dan mengontrol aliran air secara otomatis.
