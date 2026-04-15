@@ -1,4 +1,4 @@
-<img width="735" height="447" alt="Screenshot 2026-04-15 103256" src="https://github.com/user-attachments/assets/3d8abd7b-7e3e-4884-a598-f7bfef8871b8" />
+<img width="845" height="468" alt="image" src="https://github.com/user-attachments/assets/16bf3fe5-1d48-4db1-a767-abee57413553" />
 
 # HydroPay - IoT Smart Water Dispenser with Closed-Loop Control
 
